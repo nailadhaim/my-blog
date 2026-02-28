@@ -1,0 +1,31 @@
+{
+  "name": "Naila Dhaim",
+  "role": "Business IT Intern",
+  "company": "ADB Safegate",
+  "location": "Zaventem, Belgium",
+  "jobTitle": "Business IT Intern",
+  "duration": "February 2026 - June 2026",
+  "goals": [
+    "Master Next.js App Router and Server Components.",
+    "Contribute to the core Design system.",
+    "#Rizwan 4 life"
+  ],
+  "education": {
+    "degree": "Graduaat Programmeren",
+    "school": "AP Hogeschool",
+    "year": "2024 - 2026"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/naila-dhaim-4ab7a534b/",
+    "github": "https://github.com/nailadhaim",
+    "email": "nailadhaim8@gmail.com"
+  },
+  "skills": [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Tailwind CSS",
+    "Figma",
+    "Git"
+  ]
+}

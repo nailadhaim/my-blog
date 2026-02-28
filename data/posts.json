@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello World: Starting My Internship",
+    "date": "2023-10-01",
+    "description": "First day jitters and setting up the dev environment. An honest look at the feeling of being overwhelmed and excited simultaneously.",
+    "content": "This is my first post.",
+    "categories": [
+      "Reflections"
+    ]
+  },
+  {
+    "slug": "mastering-nextjs",
+    "title": "Mastering Next.js App Router",
+    "date": "2023-10-15",
+    "description": "Understanding Server Components vs Client Components. Breaking down complex rendering patterns into simple mental models.",
+    "content": "Next.js 13 introduced the App Router...",
+    "categories": [
+      "Wins"
+    ]
+  },
+  {
+    "slug": "deployed-to-prod",
+    "title": "Deployed to Production!",
+    "date": "2023-10-20",
+    "description": "Successfully shipped my first feature to production. The thrill of seeing real users interact with my code.",
+    "content": "After weeks of testing...",
+    "categories": [
+      "Wins",
+      "Power BI"
+    ]
+  },
+  {
+    "slug": "css-nightmare",
+    "title": "CSS Grid Nightmare",
+    "date": "2023-10-25",
+    "description": "Struggling with alignment issues and learning grid-template-areas the hard way.",
+    "content": "CSS Grid is powerful but...",
+    "categories": [
+      "naila is mijn wifey",
+      "Extra Tasks",
+      "Integration",
+      "SAP",
+      "Power BI"
+    ]
+  }
+]
