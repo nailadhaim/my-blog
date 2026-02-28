@@ -24,14 +24,14 @@ export default function HeroText() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          Documenting <br className="hidden md:block" />
+          My <br className="hidden md:block" />
           <span className="stroke-text hover:text-black transition-colors duration-500 cursor-default">
-            My
+            Intern
           </span>
           <br />
-          <span className="ml-12 md:ml-32">Internship</span> <br />
+          <span className="ml-12 md:ml-32">Journey</span> <br />
           <span className="font-serif italic font-light ml-4 md:ml-12 text-6xl md:text-8xl">
-            Journey.
+            Documented.
           </span>
         </motion.h1>
 
