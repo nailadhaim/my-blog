@@ -57,8 +57,8 @@ export default async function Home() {
                     {primaryCategory === "Power BI" && (
                       <BarChart3 className="w-3 h-3" />
                     )}
-                    {primaryCategory === "SAP" && (
-                      <Database className="w-3 h-3" />
+                    {primaryCategory === "CPI" && (
+                      <CloudLightning className="w-3 h-3" />
                     )}
                     {primaryCategory === "Integration" && (
                       <Cable className="w-3 h-3" />
