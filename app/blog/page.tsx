@@ -45,8 +45,8 @@ export default async function BlogPage(props: {
             The Archive.
           </h1>
           <p className="text-gray-600 font-light text-lg max-w-2xl">
-            A collection of business insights, SAP best practices, and Power BI
-            hacks.
+            A collection of documented experiences in business processes, Power
+            BI, and Cloud Platform Integration.
           </p>
         </div>
         <div className="shrink-0 pt-1">
