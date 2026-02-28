@@ -12,6 +12,7 @@ import {
   Cable,
   Layers,
   CloudLightning,
+  Database,
 } from "lucide-react";
 import HeroText from "@/components/hero-text";
 import { getLatestPost } from "@/lib/posts-server"; // Correct import for server function
@@ -60,20 +61,14 @@ export default async function Home() {
                     {primaryCategory === "CPI" && (
                       <CloudLightning className="w-3 h-3" />
                     )}
-                    {primaryCategory === "Integration" && (
-                      <Cable className="w-3 h-3" />
+                    {primaryCategory === "SAP" && (
+                      <Database className="w-3 h-3" />
                     )}
                     {primaryCategory === "Extra Tasks" && (
                       <Layers className="w-3 h-3" />
                     )}
-                    {primaryCategory === "Wins" && (
-                      <Trophy className="w-3 h-3" />
-                    )}
                     {primaryCategory === "Reflections" && (
                       <Calendar className="w-3 h-3" />
-                    )}
-                    {primaryCategory === "Fails" && (
-                      <AlertOctagon className="w-3 h-3" />
                     )}
                     {primaryCategory}
                   </span>
