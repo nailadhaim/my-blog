@@ -9,7 +9,6 @@ import {
   Calendar,
   AlertOctagon,
   BarChart3,
-  Database,
   Cable,
   Layers,
   CloudLightning,
@@ -114,7 +113,7 @@ export default async function Home() {
           <p className="text-lg leading-relaxed mb-8 max-w-3xl">
             Working in Business IT means connecting technical solutions to real
             operational needs. At ADB Safegate, I focus on optimizing workflows
-            with Power BI, SAP, and Cloud Platform Integration to drive smarter,
+            with Power BI and Cloud Platform Integration to drive smarter,
             data-driven decisions.
           </p>
 
@@ -125,18 +124,7 @@ export default async function Home() {
               </div>
               <h3 className="font-bold text-xl mb-2">Power BI</h3>
               <p className="text-gray-600">
-                Visualizing complex airport operations data to improve
-                efficiency and turnaround times.
-              </p>
-            </div>
-            <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-              <div className="bg-blue-50 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                <Database className="w-6 h-6 text-blue-600" />
-              </div>
-              <h3 className="font-bold text-xl mb-2">SAP Modules</h3>
-              <p className="text-gray-600">
-                Streamlining resource planning and integrating disparate data
-                sources for a unified view.
+                Turning operational data into clear, interactive insights.
               </p>
             </div>
             <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
