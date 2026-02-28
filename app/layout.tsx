@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Internship Portfolio",
-  description: "A minimalist portfolio documenting my internship journey.",
+  title: "Internship Blog",
+  description: "A blog documenting my internship journey.",
 };
 
 export default function RootLayout({
