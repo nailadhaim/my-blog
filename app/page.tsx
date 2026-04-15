@@ -153,8 +153,8 @@ export default async function Home() {
               </div>
               <h3 className="font-bold text-xl mb-2">Python Automation</h3>
               <p className="text-gray-600">
-                Developing custom scripts for data manipulation, task
-                automation, and extending system functionality.
+                Developing custom scripts for task automation and extending
+                system functionality.
               </p>
             </div>
             <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
