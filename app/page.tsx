@@ -15,6 +15,7 @@ import {
   Database,
   Code,
   Activity,
+  Settings,
 } from "lucide-react";
 import HeroText from "@/components/hero-text";
 import { getLatestPost } from "@/lib/posts-server"; // Correct import for server function
@@ -165,6 +166,16 @@ export default async function Home() {
               <p className="text-gray-600">
                 Overseeing AI model performance and reliability to ensure
                 ethical and efficient operational use.
+              </p>
+            </div>
+            <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-orange-50 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                <Settings className="w-6 h-6 text-orange-600" />
+              </div>
+              <h3 className="font-bold text-xl mb-2">Process Automation</h3>
+              <p className="text-gray-600">
+                Streamlining repetitive tasks and manual workflows to increase
+                organizational efficiency and accuracy.
               </p>
             </div>
           </div>

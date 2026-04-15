@@ -15,6 +15,7 @@ import {
   CloudLightning,
   Code,
   Activity,
+  Settings,
 } from "lucide-react";
 import TagFilter from "@/components/tag-filter";
 import PostAdminActions from "@/components/post-admin-actions"; // Import the actions component
@@ -87,6 +88,7 @@ export default async function BlogPage(props: {
                     {cat === "AI monitoring" && (
                       <Activity className="w-3 h-3" />
                     )}
+                    {cat === "Automation" && <Settings className="w-3 h-3" />}
                     {cat}
                   </span>
                 ))}
