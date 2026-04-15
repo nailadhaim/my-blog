@@ -16,6 +16,7 @@ import {
   Code,
   Activity,
   Settings,
+  FileText,
 } from "lucide-react";
 import TagFilter from "@/components/tag-filter";
 import PostAdminActions from "@/components/post-admin-actions"; // Import the actions component
@@ -89,6 +90,9 @@ export default async function BlogPage(props: {
                       <Activity className="w-3 h-3" />
                     )}
                     {cat === "Automation" && <Settings className="w-3 h-3" />}
+                    {cat === "Documentation" && (
+                      <FileText className="w-3 h-3" />
+                    )}
                     {cat}
                   </span>
                 ))}
