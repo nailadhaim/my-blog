@@ -45,8 +45,9 @@ export default async function BlogPage(props: {
             The Archive.
           </h1>
           <p className="text-gray-600 font-light text-lg max-w-2xl">
-            A collection of documented experiences in business processes, Power
-            BI, and Cloud Platform Integration.
+            A collection of documented experiences in business processes, SAP,
+            and Power BI, with a focus on Cloud Platform Integration, Python
+            automation, and AI monitoring.
           </p>
         </div>
         <div className="shrink-0 pt-1">
