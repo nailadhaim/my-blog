@@ -41,9 +41,10 @@ export default function HeroText() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Follow my journey as a Business Applications & IT Intern, transforming
-          data with Power BI and connecting systems through Cloud Platform
-          Integration.
+          Follow my journey as a Business Applications & IT Intern. From
+          mastering SAP and Cloud Integration to automating with Python,
+          monitoring AI, and visualizing insights in Power BI, I’m exploring the
+          full stack of modern enterprise tech.
         </motion.p>
       </motion.div>
     </div>
