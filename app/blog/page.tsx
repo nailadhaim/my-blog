@@ -13,6 +13,8 @@ import {
   Layers,
   CheckCircle,
   CloudLightning,
+  Code,
+  Activity,
 } from "lucide-react";
 import TagFilter from "@/components/tag-filter";
 import PostAdminActions from "@/components/post-admin-actions"; // Import the actions component
@@ -81,6 +83,10 @@ export default async function BlogPage(props: {
                     {cat === "CPI" && <CloudLightning className="w-3 h-3" />}
                     {cat === "Extra Tasks" && <Layers className="w-3 h-3" />}
                     {cat === "Reflections" && <Calendar className="w-3 h-3" />}
+                    {cat === "Python" && <Code className="w-3 h-3" />}
+                    {cat === "AI monitoring" && (
+                      <Activity className="w-3 h-3" />
+                    )}
                     {cat}
                   </span>
                 ))}
