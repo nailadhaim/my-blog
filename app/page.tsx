@@ -13,6 +13,8 @@ import {
   Layers,
   CloudLightning,
   Database,
+  Code,
+  Activity,
 } from "lucide-react";
 import HeroText from "@/components/hero-text";
 import { getLatestPost } from "@/lib/posts-server"; // Correct import for server function
@@ -108,8 +110,9 @@ export default async function Home() {
           <p className="text-lg leading-relaxed mb-8 max-w-3xl">
             Working in Business IT means connecting technical solutions to real
             operational needs. At ADB Safegate, I focus on optimizing workflows
-            with Power BI and Cloud Platform Integration to drive smarter,
-            data-driven decisions.
+            through SAP and Cloud Platform Integration, leveraging Power BI and
+            Python to drive smarter, data-driven decisions while ensuring
+            reliability through AI monitoring.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -132,6 +135,36 @@ export default async function Home() {
               <p className="text-gray-600">
                 Connecting cloud and on-premise systems to enable seamless data
                 flow and automated workflows across platforms.
+              </p>
+            </div>
+            <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-blue-50 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                <Database className="w-6 h-6 text-blue-600" />
+              </div>
+              <h3 className="font-bold text-xl mb-2">SAP Systems</h3>
+              <p className="text-gray-600">
+                Managing enterprise resource planning and optimizing core
+                business processes within the SAP ecosystem.
+              </p>
+            </div>
+            <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-indigo-50 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                <Code className="w-6 h-6 text-indigo-600" />
+              </div>
+              <h3 className="font-bold text-xl mb-2">Python Automation</h3>
+              <p className="text-gray-600">
+                Developing custom scripts for data manipulation, task
+                automation, and extending system functionality.
+              </p>
+            </div>
+            <div className="bg-white p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <div className="bg-purple-50 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                <Activity className="w-6 h-6 text-purple-600" />
+              </div>
+              <h3 className="font-bold text-xl mb-2">AI Monitoring</h3>
+              <p className="text-gray-600">
+                Overseeing AI model performance and reliability to ensure
+                ethical and efficient operational use.
               </p>
             </div>
           </div>
