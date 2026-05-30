@@ -124,17 +124,13 @@ export default async function About() {
               </div>
             </div>
 
+            {/* Main Goals */}
             <div className="bg-gray-50 p-6 border border-gray-100">
               <h3 className="font-bold mb-3 text-sm">Main Goals</h3>
               <ul className="space-y-2 text-sm text-gray-700 list-disc list-inside">
-                {/* Use optional chaining (?.) to prevent crashes if data is undefined */}
-                {data?.goals?.length > 0 ? (
-                  data.goals.map((goal: string, index: number) => (
-                    <li key={index}>{goal}</li>
-                  ))
-                ) : (
-                  <li>No goals found. (Check your data source!)</li>
-                )}
+                {data.goals.map((goal: string) => (
+                  <li key={goal}>{goal}</li>
+                ))}
               </ul>
             </div>
           </div>
